@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LDAPConfig>
+    <URL>ldap://ldap.example.org</URL>
+    <Port>389</Port>
+    <DN>uid=admin,ou=People,dc=example,dc=org</DN>
+    <Password>FakePass123</Password>
+    <FilterAttr>uid</FilterAttr>
+    <Scope>sub</Scope>
+    <Attributes>
+        <Attr>uid</Attr>
+        <Attr>mail</Attr>
+        <Attr>cn</Attr>
+    </Attributes>
+</LDAPConfig>
